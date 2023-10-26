@@ -38,13 +38,13 @@ dfx canister call token_backend balanceOf "( $OWNER_PUBLIC_KEY )"
 1. Check canister ID:
 
 ```
-dfx canister id token
+dfx canister id token_backend
 ```
 
 2. Save canister ID into a command line variable:
 
 ```
-CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token )\""
+CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token_backend )\""
 ```
 
 3. Check canister ID has been successfully saved:
